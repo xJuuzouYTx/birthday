@@ -1,0 +1,16 @@
+.PersonList {
+    max-width: 500px;
+    width: 500px;
+    display: grid;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 10px 5px  rgb(0 0 0 / 14%), 0 3px 0 2px rgb(0 0 0 / 12%), 0 0px 0 0px rgb(0 0 0 / 30%);
+    overflow-y: scroll;
+    max-height: 600px;
+}
+
+@media (max-width: 600px) {
+    .PersonList {
+        width: 100%;
+    }
+}

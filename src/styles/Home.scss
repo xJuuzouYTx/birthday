@@ -1,0 +1,14 @@
+.Home{
+    
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #282828;
+    background-image: url(https://i.pinimg.com/originals/38/c4/92/38c492c1973da3210ac7afc1998d9495.png);
+}
+
+.birthday{
+    background: #fff;
+}

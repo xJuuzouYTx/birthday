@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.light { 
+    .Header{
+        background: #f4f4f4;
+    }
+}
+
+.dark{
+    .Header{
+        background: #282828;
+        color: #222;
+    }
+    .Home{
+        background: #282828;
+    }
+    .birthday{
+        background: #000;
+    }
+    .TimePicker{
+        background: #000;
+    }
+    .TimePicker button{
+        background: #252525;
+    }
+}

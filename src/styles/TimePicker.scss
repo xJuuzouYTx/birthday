@@ -1,0 +1,22 @@
+.TimePicker{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgba(0,0,0,.1);
+    align-items: center;
+    text-align: center;
+}
+
+.TimePicker .date{
+    width: 60%;
+    color: #707070;
+}
+
+.TimePicker .back, .TimePicker .ahead{
+    width: 20%;
+}
+
+.TimePicker button{
+    outline: none;
+    border: none;
+    padding: 10px;
+}

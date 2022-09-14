@@ -1,0 +1,32 @@
+
+.PersonItem {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 10px;
+    gap: 10px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.PersonItem .personInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.PersonItem .personImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.PersonItem .personName {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.PersonItem .personDate {
+    font-size: 12px;
+    font-style: italic;
+    color: #F44336;
+}

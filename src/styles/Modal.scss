@@ -1,0 +1,111 @@
+.Modal {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, .7);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Modal .modal-container img {
+    width: 500px;
+    align-self: center;
+}
+
+.modal-container {
+    width: 500px;
+    position: relative;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-body {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.modal-header h2 {
+    margin: 0;
+}
+
+.modal-close {
+    width: 30px;
+    height: 30px;
+    /* background: transparent; */
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+}
+
+.modal-title,
+.modal-text {
+    outline: none;
+    border: none;
+    font-weight: 700;
+}
+
+.modal-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal-input input {
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    justify-content: end;
+}
+
+.modal-actions .modal-send {
+    padding: 10px;
+    background: #018ada;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    justify-self: end;
+}
+
+.modal-actions .modal-cancel {
+    padding: 10px;
+    background: #888ada;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    justify-self: end;
+}
+
+@media (max-width: 600px) { 
+    .Modal .modal-container{
+        width: 90%;
+    }
+    .Modal .modal-container img {
+        width: 100%;
+    }
+}
